@@ -2,17 +2,14 @@ header {
     background-color: #1F2937;
     color:#F9FAF8;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items:center;
 }
 #logo {
     font-size: 24px;
     font-weight: bold;
     color:#F9FAF8;
     display:flex;
-    align-self:center;
-    margin:10px;
-    padding:15px;
-    gap:8px;
 }
 ul {
     list-style: none;
@@ -32,17 +29,25 @@ a {
     padding:8px;
     margin:0;
     display:flex;
+    justify-content:space-around;
 }
 .boxonewords {
     display:flex;
     flex-direction: column;
+    align-self:flex-start;
     flex-grow:0;
+    width:30%;
+    height:auto;
+    padding:15px;
+    margin:15px;
 }
 .boxoneimg {
     align-self: center;
     background-color: gray;
     height:150px;
     width:300px;
+    padding:15px;
+    margin:15px;
 }
 button {
     background-color:#3882F6;
@@ -93,12 +98,11 @@ h2 {
 }
 .boxfour {
     display:flex;
-    flex-wrap:wrap;
     flex-direction:column;
     align-items:center;
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+    border: 5px solid black;
+    margin:20px;
+    padding:20px;
 }
 footer {
     text-align:center;
