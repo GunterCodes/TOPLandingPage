@@ -23,7 +23,7 @@ a {
     color:#F9FAF8;
     text-decoration: none;
 }
-.boxone {
+.hero {
     background-color: #1F2937;
     color:#F9FAF8;
     padding:8px;
@@ -31,7 +31,11 @@ a {
     display:flex;
     justify-content:space-around;
 }
-.boxonewords {
+.heroawesome {
+    font-size: 48px;
+    font-weight: 900;
+}
+.herowords {
     display:flex;
     flex-direction: column;
     align-self:flex-start;
@@ -41,7 +45,7 @@ a {
     padding:15px;
     margin:15px;
 }
-.boxoneimg {
+.heroimg {
     align-self: center;
     background-color: gray;
     height:150px;
