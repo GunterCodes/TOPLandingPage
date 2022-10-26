@@ -1,3 +1,10 @@
+*{
+    padding:0;
+    margin:0;
+    max-width: 100%;
+    overflow:hidden;
+    position:relative;
+}
 header {
     background-color: #1F2937;
     color:#F9FAF8;
@@ -72,15 +79,15 @@ h2 {
 .imggroup {
     border: solid 5px #3882F6;
     border-radius: 8px;
-    height:150px;
-    width: 150px;
-    display:flex;
-    flex-direction: column;
 }
 .boxtwoimg {
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.boxtwowords {
+    font-size: 36px;
+    font-weight: 900;
 }
 .boxthree {
     background-color: #E5E7EB;
