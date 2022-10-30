@@ -13,7 +13,6 @@ header {
     display:flex;
     justify-content: space-around;
     align-items:center;
-    padding:10px;
 }
 .headleft {
     font-size: 24px;
@@ -25,9 +24,6 @@ ul {
     list-style: none;
     display:flex;
     align-self:center;
-    margin:10px;
-    padding: 15px;
-    gap: 20px;
 }
 a {
     color:#F9FAF8;
@@ -36,8 +32,6 @@ a {
 .hero {
     background-color: #1F2937;
     color:#F9FAF8;
-    padding:8px;
-    margin:0;
     display:flex;
     justify-content:space-around;
 }
@@ -49,27 +43,16 @@ a {
     display:flex;
     flex-direction: column;
     align-self:flex-start;
-    flex-grow:0;
-    width:30%;
-    height:auto;
-    padding:15px;
-    margin:15px;
 }
 .heroimg {
     align-self: center;
     background-color: gray;
-    height:150px;
-    width:300px;
-    padding:15px;
-    margin:15px;
 }
 button {
     background-color:#3882F6;
     color: #F9FAF8;
     font-size: 16px;
-    padding: 10px 16px;
-    border-radius:8px;
-    width: 100px;
+    border-radius:8px
     border:none;
     transition-duration: 0.4s;
 }
@@ -84,7 +67,7 @@ h2 {
     border-radius: 8px;
 }
 .boxtwo {
-    height:250px;
+    
 }
 .boxtwoimg {
     display:flex;
@@ -101,10 +84,6 @@ h2 {
     font-style: italic;
     font-size: 32px;
     text-align: center;
-    height: 250px;
-    width:100%;
-    padding: 15px;
-    margin: 0;
     display:flex;
     align-items: center;
 }
@@ -118,13 +97,9 @@ h2 {
     flex-direction:column;
     align-items:center;
     border: 5px solid black;
-    height:250px;
-    margin:20px;
-    padding:20px;
 }
 footer {
     text-align:center;
     background-color: #1F2937;
     color:#F9FAF8;
-    padding:15px;
 }
