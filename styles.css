@@ -47,13 +47,19 @@ a:hover{
 .hero{
     display: flex;
     justify-content: center;
-    margin:100px;
+    margin:75px;
     margin-left:50%;
     margin-right:50%;
 }
 .hero-tech-card{
     align-self:center;
-    margin-right:20px;
+    margin-right:50px;
+    padding:25px;
+}
+.hero-image{
+    border: solid rgb(6, 175, 175);
+    border-radius: 10px;
+    margin-left:50px;
 }
 h1{
     font-size: 48px;
@@ -62,6 +68,7 @@ h1{
 }
 .hero-text{
     color:rgba(240, 255, 255, 0.527);
+    padding:5px;
 }
 .sign-up{
     background-color: rgb(6, 175, 175);
@@ -77,3 +84,52 @@ h1{
 }
 
 /* IMAGE CARDS CSS */
+.cards-wrapper{
+    margin:50px 100px;
+}
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    text-align: center;
+}
+.card-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-image{
+    height:150px;
+    width:150px;
+    margin:20px;
+    padding:10px;
+    border: solid rgb(6, 175, 175);
+    border-radius: 10px;
+}
+.card-subtext{
+    text-align: center;
+    margin:-15px;
+}
+
+/* QUOTE BLOCK CSS */
+.quote-wrapper{
+    background-color: #1f293786;
+}
+.quote-container{
+    display:flex;
+    flex-direction:column;
+    margin: 50px 75px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.quote-text{
+    font-size: 32px;
+    font-weight: 300px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-author{
+    font-weight: bold;
+    align-self:flex-end;
+}
