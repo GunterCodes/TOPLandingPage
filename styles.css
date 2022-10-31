@@ -172,3 +172,11 @@ h3{
 .footer-wrapper{
     background-color: #1f2937;
 }
+.footer{
+    color: azure;
+    font-size: 18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
