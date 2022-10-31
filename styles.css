@@ -133,3 +133,42 @@ h2{
     font-weight: bold;
     align-self:flex-end;
 }
+
+/* CALL TO ACTION BLOCK */
+.cta-wrapper{
+    margin:50px;
+}
+.cta-container{
+    background-color: rgb(6, 175, 175);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:150px;
+    margin-right:150px;
+    border-radius: 10px;
+    padding:50px;
+}
+h3{
+    color:azure;
+    padding-bottom: 5px;
+}
+.cta-text{
+    color: azure;
+}
+.cta-button{
+    background-color: azure;
+    font-size:14px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    padding:5px 20px;
+    border:2px solid #1f2937;
+}
+.cta-button:hover{
+    background-color: #1f2937;
+    color:azure;
+}
+
+/* FOOTER BLOCK CSS */
+.footer-wrapper{
+    background-color: #1f2937;
+}
