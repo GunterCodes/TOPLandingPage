@@ -1,105 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     padding:0;
     margin:0;
-    max-width: 100%;
-    overflow:auto;
-    position:relative;
-    outline: 1px solid red;
-    box-sizing:border-box;
 }
-header {
-    background-color: #1F2937;
-    color:#F9FAF8;
-    display:flex;
-    justify-content: space-around;
-    align-items:center;
-}
-.headleft {
-    font-size: 24px;
-    font-weight: bold;
-    color:#F9FAF8;
-    display:flex;
-}
-ul {
-    list-style: none;
-    display:flex;
-    align-self:center;
-}
-a {
-    color:#F9FAF8;
-    text-decoration: none;
-}
-.hero {
-    background-color: #1F2937;
-    color:#F9FAF8;
-    display:flex;
-    justify-content:space-around;
-}
-.heroawesome {
-    font-size: 48px;
-    font-weight: 900;
-}
-.herowords {
+body{
+    font-family:Roboto, sans-serif;
+    min-height: 100vh;
     display:flex;
     flex-direction: column;
-    align-self:flex-start;
 }
-.heroimg {
-    align-self: center;
-    background-color: gray;
+
+/* HEADER CSS */
+.header-hero-wrapper{
+    background-color: #1f2937;
 }
-button {
-    background-color:#3882F6;
-    color: #F9FAF8;
-    font-size: 16px;
-    border-radius:8px
-    border:none;
-    transition-duration: 0.4s;
-}
-button:hover {
-    background-color: #85f316;
-}
-h2 {
-    text-align: center;
-}
-.imggroup {
-    border: solid 5px #3882F6;
-    border-radius: 8px;
-}
-.boxtwo {
-    
-}
-.boxtwoimg {
+.header{
+    font-size: 18px;
+    margin:10px;
     display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-links{
+    list-style-type: none;
+    gap:10px;
+    display:flex;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration:none;
+    color: azure;
+}
+
+/* HERO CSS */
+.hero{
+    display: flex;
     justify-content: center;
-    align-items: center;
+    margin:100px;
+    margin-left:50%;
+    margin-right:50%;
 }
-.boxtwowords {
-    font-size: 36px;
-    font-weight: 900;
+.hero-tech-card{
+    align-self:center;
+    margin-right:20px;
 }
-.boxthree {
-    background-color: #E5E7EB;
-    color:#1F2937;
-    font-style: italic;
-    font-size: 32px;
-    text-align: center;
-    display:flex;
-    align-items: center;
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:azure;
 }
-.author {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: right;
+.hero-text{
+    color:rgba(240, 255, 255, 0.527);
 }
-.boxfour {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    border: 5px solid black;
+.sign-up{
+    background-color: rgb(6, 175, 175);
+    font-size:14px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    padding:5px 20px;
+    border:0;
 }
-footer {
-    text-align:center;
-    background-color: #1F2937;
-    color:#F9FAF8;
+.sign-up:hover{
+    background-color: azure;
+    color:#1f2937;
 }
