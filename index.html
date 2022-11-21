@@ -22,7 +22,14 @@
                 <div class="hero-tech-card">
                     <h1>CleanPlate Technologies</h1>
                     <p class="hero-text">Welcome to our company website!</br> We perform visual transformations to enhance your food service experience. Click the button below to be added to our mailing list. </br>Thanks for checking us out!</p>
-                    <button class="sign-up" type="button" alt="Sign Up Button">Sign Up</button>
+                    <!-- <button class="sign-up" type="button" alt="Sign Up Button">Sign Up</button> -->
+                    <form action="results.html" method="GET">
+                        <div class="hero-email">
+                            <label class="hero-text" type="text" for="email">Email</label>
+                            <input name="email" type="email" for="email" id="email" placeholder="example@example.com" required>
+                        </div>
+                        <button class="sign-up" alt="Sign Up Button">Sign Up</button>
+                    </form>
                 </div>
                 <img class="hero-image" src="images/pexels-marcus-herzberg-1058277.jpg" alt="Busy restaurant/bar" height="300px" width="425px">
             </div>
@@ -61,14 +68,12 @@
                     <p class="cta-text">Click on the button to the right to sign up for our newsletter where we talk all things new </br>and exciting in food creation and help you generate customers through the web!</p>
                 </div>
                 <div class="cta-form">
-                    <button class="cta-button" type="button" alt="Sign Up Button">Sign Up</button>
-                    <form>
-                        <label>Name</label>
-                        <input>
-                        <label>Email</label>
-                        <input>
-                        <label>Message</label>
-                        <input>
+                    <form action="results.html" method="GET">
+                        <div class="cta-email">
+                            <label class="cta-text" type="text" for="email">Email</label>
+                            <input name="email" type="email" for="email" id="email" placeholder="example@example.com" required>
+                        </div>
+                        <button class="cta-button" alt="Sign Up Button">Sign Up</button>
                     </form>
                 </div>
             </div>
