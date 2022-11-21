@@ -66,9 +66,12 @@ a:hover{
 .quote-form-wrapper {
     color: #1f2937;
     display: flex;
+    flex-direction: column;
 }
 .quote-form-wrapper div {
     padding:10px;
+    padding-left: 20%;
+    /* padding-right: 50%; */
 }
 .quote-submit{
     background-color:#54b3d6;
@@ -93,4 +96,21 @@ a:hover{
 .quote-reset:hover{
     background-color: #1f2937;
     color:azure;
+}
+.quote-form-wrapper label {
+    display: flex;
+    align-self: flex-start;
+}
+
+/* FOOTER BLOCK CSS */
+.footer-wrapper{
+    background-color: #1f2937;
+}
+.footer{
+    color: azure;
+    font-size: 18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
 }
