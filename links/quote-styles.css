@@ -49,7 +49,48 @@ a:hover{
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
+    color:azure;
 }
-img {
+.instruction {
+    padding: 10px 75px;
+    padding-bottom: 20px;
+}
+.info-image {
+    height:150px;
+    width:150px;
+    margin:20px;
+    padding:10px;
+}
+
+/* QUOTE FORM CSS */
+.quote-form-wrapper {
+    color: #1f2937;
+    display: flex;
+}
+.quote-form-wrapper div {
+    padding:10px;
+}
+.quote-submit{
+    background-color:#54b3d6;
+    font-size:14px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    padding:5px 20px;
+    border:2px solid #54b3d6;
+}
+.quote-submit:hover{
     background-color: #1f2937;
+    color:azure;
+}
+.quote-reset{
+    background-color:#54b3d6;
+    font-size:14px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    padding:5px 20px;
+    border:2px solid #54b3d6;
+}
+.quote-reset:hover{
+    background-color: #1f2937;
+    color:azure;
 }
