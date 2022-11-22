@@ -10,6 +10,12 @@ body{
     display:flex;
     flex-direction: column;
 }
+@media (max-width: 800px) {
+    .hero {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
 
 /* HEADER CSS */
 .header-hero-wrapper{
@@ -141,15 +147,15 @@ h2{
 
 /* CALL TO ACTION BLOCK */
 .cta-wrapper{
-    margin:50px;
+    margin-inline: auto;
 }
 .cta-container{
     background-color: rgb(6, 175, 175);
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin-left:150px;
-    margin-right:150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 10px;
     padding:50px;
 }
